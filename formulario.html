@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">CV Lionen Messi</a>
+      &nbsp;
+      <a href="listas-anidadas.html">Listas Anidadas</a>
+    </nav>
+  </header>
+  <h1>Formulario de registro</h1>
+  <form>
+    <div>
+      <label for="nombre">Nombre:</label>
+      <input required type="text" id="nombre">
+    </div>
+    <br>
+    <div>
+      <label for="apellido">Apellido:</label>
+      <input required type="text" id="apellido">
+    </div>
+    <br>
+    <div>
+      Modalidad de cursada:
+      <input required type="radio" id="on-demand" value="on-demand" name="modalidad">
+      <label for="on-demand">On-Demand</label>
+      <input required type="radio" id="vivo" name="modalidad">
+      <label for=vivo>En vivo</label>
+    </div>
+    <br>
+    <div>
+      <label for="correo">Correo:</label>
+      <input required type="text" id="correo">
+    </div>
+    <br>
+    <div>
+      <input type="checkbox" id="informacion">
+      <label for="informacion">Deseo recibir informacion sobre nuevos posteos en la plataforma de Nucba</label>
+    </div>
+    <br>
+    <div>
+      <input required type="checkbox" id="terminos">
+      <label for="terminos">Declaro que lei los terminos y condiciones y eestoy lista para convertime en desarrollador web Full Stack</label>
+    </div>
+    <br>
+    <div>
+      <input type="submit" value="Enviar">
+    </div>
+  </form>
+</body>
+</html>
